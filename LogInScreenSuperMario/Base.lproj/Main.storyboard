@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,58 +13,78 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LogInScreenSuperMario" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="PuL-an-Ay5">
                                 <rect key="frame" x="0.0" y="0.0" width="668" height="853"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Yoshi-SSB4-Artwork" translatesAutoresizingMaskIntoConstraints="NO" id="GhE-mm-mvD">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yoshi-SSB4-Artwork" translatesAutoresizingMaskIntoConstraints="NO" id="GhE-mm-mvD">
                                 <rect key="frame" x="152" y="616" width="175" height="105"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="MOL-Lu-OFV">
-                                <rect key="frame" x="89" y="598" width="301" height="182"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="-super-mario-jumpingmariofictional-charactervideo-gamefranchisenintendodesigner-1701528623664755si" translatesAutoresizingMaskIntoConstraints="NO" id="cAG-fH-paJ">
-                                <rect key="frame" x="162" y="305" width="109" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHC-SS-iWQ">
-                                <rect key="frame" x="111" y="214" width="169" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHC-SS-iWQ">
+                                <rect key="frame" x="111" y="226" width="171" height="35"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenShell" translatesAutoresizingMaskIntoConstraints="NO" id="l6K-Ce-Ovw">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenShell" translatesAutoresizingMaskIntoConstraints="NO" id="l6K-Ce-Ovw">
                                 <rect key="frame" x="239" y="393" width="79" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="username" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mdV-nQ-yXt">
-                                <rect key="frame" x="111" y="83" width="169" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="username" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mdV-nQ-yXt">
+                                <rect key="frame" x="111" y="83" width="171" height="34"/>
                                 <color key="textColor" systemColor="systemGray2Color"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="password" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rtP-qL-LCX">
-                                <rect key="frame" x="111" y="136" width="169" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="password" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rtP-qL-LCX">
+                                <rect key="frame" x="111" y="147" width="171" height="34"/>
                                 <color key="textColor" systemColor="systemGray2Color"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="26o-KP-OTO">
+                                <rect key="frame" x="98" y="608" width="282" height="170"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" misplaced="YES" image="-super-mario-jumpingmariofictional-charactervideo-gamefranchisenintendodesigner-1701528623664755si" translatesAutoresizingMaskIntoConstraints="NO" id="cAG-fH-paJ">
+                                <rect key="frame" x="159" y="314" width="123" height="110"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="l6K-Ce-Ovw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="239" id="2YT-vz-BTu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GhE-mm-mvD" secondAttribute="bottom" constant="97" id="7KM-Fl-WQU"/>
+                            <constraint firstItem="rtP-qL-LCX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="111" id="7wN-WA-eRI"/>
+                            <constraint firstItem="cAG-fH-paJ" firstAttribute="top" secondItem="FHC-SS-iWQ" secondAttribute="bottom" constant="85" id="HqD-Bx-lUu"/>
+                            <constraint firstItem="26o-KP-OTO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="Jda-G5-Nh7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GhE-mm-mvD" secondAttribute="trailing" constant="66" id="NkQ-Gr-9fZ"/>
+                            <constraint firstItem="cAG-fH-paJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="145" id="OyA-Pr-Fp8"/>
+                            <constraint firstItem="rtP-qL-LCX" firstAttribute="top" secondItem="mdV-nQ-yXt" secondAttribute="bottom" constant="30" id="VJp-8j-H9r"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cAG-fH-paJ" secondAttribute="bottom" constant="385" id="VY2-ez-E3U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mdV-nQ-yXt" secondAttribute="trailing" constant="111" id="Xbo-7h-jXC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="26o-KP-OTO" secondAttribute="trailing" constant="13" id="Xeh-4P-52W"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l6K-Ce-Ovw" secondAttribute="trailing" constant="75" id="aLm-JP-rZQ"/>
+                            <constraint firstItem="FHC-SS-iWQ" firstAttribute="top" secondItem="rtP-qL-LCX" secondAttribute="bottom" constant="45" id="c6u-cX-lXa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cAG-fH-paJ" secondAttribute="trailing" constant="125" id="c9P-gT-ZdF"/>
+                            <constraint firstItem="mdV-nQ-yXt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="111" id="dPd-fB-Co0"/>
+                            <constraint firstItem="GhE-mm-mvD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="557" id="e25-Jb-nhP"/>
+                            <constraint firstItem="l6K-Ce-Ovw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="334" id="epV-E2-Srv"/>
+                            <constraint firstItem="FHC-SS-iWQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="111" id="fBn-fZ-2wJ"/>
+                            <constraint firstItem="26o-KP-OTO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="549" id="jqT-4s-ByO"/>
+                            <constraint firstItem="GhE-mm-mvD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="kEy-x4-2th"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="26o-KP-OTO" secondAttribute="bottom" constant="40" id="lbl-za-c6D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="l6K-Ce-Ovw" secondAttribute="bottom" constant="385" id="lxg-aw-5W6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rtP-qL-LCX" secondAttribute="trailing" constant="111" id="nyc-Zx-lwa"/>
+                            <constraint firstItem="mdV-nQ-yXt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="xUh-ag-wrx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FHC-SS-iWQ" secondAttribute="trailing" constant="111" id="znw-c6-2Al"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113.84615384615384" y="-28.436018957345969"/>
+            <point key="canvasLocation" x="113.74045801526717" y="-28.87323943661972"/>
         </scene>
     </scenes>
     <resources>
